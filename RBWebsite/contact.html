@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <div class="navbar">
+
+        <li><a href="index.html" style="margin-left: 30px;">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+
+        <!-- Change this link to your instagram profile link -->
+        <a href="https://www.instagram.com" class="ATag"><img src="/Images/insta.png" alt="Instagram" width="60px" class="insta"></a>
+        <!-- Change this link to your twitter profile link -->
+        <a href="https://www.twitter.com" class="ATag"><img src="/Images/twitter.png" alt="Twitter" width="50px" class="twitter"></a>
+        <!-- Change this link to your linkedin profile link -->
+        <a href="https://www.linkedin.com" class="ATag"><img src="/Images/linkedin.png" alt="Linkedin" width="30px" class="linkedin"></a>
+
+    </div>
+
+
+    <main>
+
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/ryan1999brown@gmail.com" method="post">
+            <center>
+                <label for="full-name" class="fname">Full Name</label><br>
+                <input type="text" name="name" id="full-name" required="" placeholder="Example: Ryan Brown" class="fullname"><br>
+                <label for="email-address">Email Address</label><br>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" class="email"><br>
+                <label for="message">Message</label><br>
+                <textarea rows="5" name="message" id="message" placeholder="Enter your message" required="" class="message"></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br>
+                <input type="submit" value="Submit" class="submit">
+            </center>
+        </form>
+
+    </main>
+
+
+
+    <footer>
+        <!-- Change this link to your instagram profile link -->
+        <a href="https://www.instagram.com"><img src="/Images/insta.png" alt="Instagram" width="60px" class="instaFooter"></a>
+        <!-- Change this link to your twitter profile link -->
+        <a href="https://www.twitter.com"><img src="/Images/twitter.png" alt="Twitter" width="50px" class="twitterFooter"></a>
+        <!-- Change this link to your linkedin profile link -->
+        <a href="https://www.linkedin.com"><img src="/Images/linkedin.png" alt="Linkedin" width="30px" class="linkedinFooter"></a>
+    </footer>
+
+</body>
+</html>
